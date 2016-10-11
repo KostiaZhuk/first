@@ -1,0 +1,18 @@
+.pp{
+	white-space:pre-wrap;
+	font-family: Verdana, sans-serif;
+	padding: 5px; /* Поля вокруг текста */    
+    margin: 0 auto; /* Выравниваем слой по центру */
+    width: 80%; /* Ширина слоя */
+    opacity: 0.7; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+	
+}
+#im{
+	
+	z-index: 9999;
+}
+.mynav{
+	background-color: lightblue;	
+	margin:10px;
+}

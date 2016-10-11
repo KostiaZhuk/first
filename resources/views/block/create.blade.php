@@ -29,7 +29,7 @@
 							'files'=>true,'class'=>'form']) !!}
 	<div class='form-group'>
 		{!! Form::label('topicid','Select topic') !!}	
-		{!! Form::select('topicid', $topics, ['class'=>'form-control'] ) !!}	
+		{!! Form::select('topicid', $topics, ['class'=>'form-control selectpicker'] ) !!}	
 		<a href="{{url('topic/create')}}" class="btn btn-info">Add new Topic</a>
 	</div>
 	<div class='form-group'>

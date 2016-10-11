@@ -20,4 +20,6 @@ Route::get('/home', 'TestController@index');
 Route::resource('topic','TopicController');
 Route::resource('block','BlockController');
 
+Route::resource('/','TopicController@index');
+Route::post('topic/search','TopicController@search');
 
